@@ -1,3 +1,4 @@
+import { spring } from "react-motion";
 import {
     mobile,
     backend,
@@ -7,7 +8,11 @@ import {
     typescript,
     html,
     css,
+    aws,
     reactjs,
+    csharp,
+    springboot,
+    firebase,
     redux,
     tailwind,
     nodejs,
@@ -15,14 +20,19 @@ import {
     git,
     figma,
     docker,
+    sql,
     meta,
-    starbucks,
+    electronicArts,
+    java,
+    python,
     tesla,
-    shopify,
+    gtri,
     carrent,
     jobit,
     tripguide,
     threejs,
+    diamond,
+    cpp,
   } from "../assets";
   
   export const navLinks = [
@@ -42,11 +52,11 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "FullStack Developer",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Database System Implementations",
       icon: mobile,
     },
     {
@@ -54,117 +64,110 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Tools and Utilities Developer",
       icon: creator,
     },
   ];
   
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
+      name: "Java",
+      icon: java,
     },
     {
-      name: "CSS 3",
-      icon: css,
+      name: "Python",
+      icon: python,
     },
     {
-      name: "JavaScript",
-      icon: javascript,
+      name: "C++",
+      icon: cpp,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "SQL",
+      icon: sql,
     },
     {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "JavaScript",
+      icon: javascript,
     },
     {
-      name: "Tailwind CSS",
-      icon: tailwind,
+      name: "C#",
+      icon: csharp,
     },
     {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
+      name: "AWS",
+      icon: aws,
     },
     {
       name: "git",
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "Spring Boot",
+      icon: springboot,
     },
     {
-      name: "docker",
-      icon: docker,
-    },
+      name: "Firebase",
+      icon: firebase,
+    }
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Software Engineering Intern",
+      company_name: "Electronic Arts",
+      icon: electronicArts,
+      iconBg: "#F5F5F5",
+      date: "May 2024 - Aug 2024",
+      points: [
+        "Optimized a critical data export plugin in C# and XML, reducing data processing time by 25%",
+        "Developed and integrated 50+ script methods, accelerating script integration by 30% using Visual Studio",
+        "Debugged legacy code using breakpoints and call stack analysis, solving long-standing bugs",
+        "Collaborated in Agile teams for code reviews using Git and Swarm, ensuring code quality and consistency",
+        "Generated JUnit tests to validate cases for JSON exports, improving test coverage by 50+ cases",
+        "Documented processes using Confluence, facilitating seamless onboarding for 5+ future developers"
+      ],
+    },
+    {
+      title: "Software Engineering Intern",
+      company_name: "Divine Diamonds",
+      icon: diamond,
+      iconBg: "#F5F5F5",
+      date: "May 2023 - Aug 2023",
+      points: [
+        "Migrated inventory system to a cloud-based platform using AWS ensuring 100% data safety",
+        "Applied AWS RDS to migrate inventory data and AWS S3 for scalable cloud storage",
+        "Enhanced database performance using SQL optimization, reducing query response times by 50%",
+        "Planned backup and disaster recovery solutions, increasing system reliability and fault tolerance",
+        "Collaborated with cross-functional teams to ensure seamless cloud deployment, achieving 99.9% uptime"
+      ],
+    },
+    {
+      title: "Software Engineer",
+      company_name: "GT Research Institute",
+      icon: gtri,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Jan 2023 - May 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Formulated C++ algorithms for servos, increasing balloon descent accuracy by 95% and optimizing power efficiency",
+        "Utilized Python and Pandas libraries to decode telemetry, providing real-time insights via Jupyter Notebook",
+        "Processed and visualized sensor data using Matplotlib, optimizing balloon performance tracking by 20%",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      title: "Software Engineering Intern",
+      company_name: "Divine Diamonds",
+      icon: diamond,
+      iconBg: "#F5F5F5",
+      date: "May 2022 - Aug 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Created and built a centralized inventory system, reducing manual tracking errors by 40% across 3 retail locations",
+        "Leveraged SQL and Java(Spring Boot) to implement real-time inventory updates, improving efficiency by 300%, implementing responsive design and ensuring cross-browser compatibility",
+        "Improved the inventory management process, increasing accuracy and speed of stock updates by 20%",
       ],
     },
   ];
