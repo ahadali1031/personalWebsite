@@ -1,4 +1,4 @@
-import { spring } from "react-motion";
+import { spring } from "framer-motion";
 import {
     mobile,
     backend,
