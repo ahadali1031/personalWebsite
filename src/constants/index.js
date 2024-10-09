@@ -6,11 +6,13 @@ import {
     web,
     javascript,
     typescript,
+    database,
     html,
     css,
     aws,
     reactjs,
     csharp,
+    personalWebPic,
     springboot,
     firebase,
     redux,
@@ -32,6 +34,7 @@ import {
     tripguide,
     threejs,
     diamond,
+    eelog,
     cpp,
   } from "../assets";
   
@@ -201,9 +204,9 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Personal Website",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "React based webstie that uses Three.js as well as advanced CSS elements.",
       tags: [
         {
           name: "react",
@@ -218,13 +221,13 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: personalWebPic,
+      source_code_link: "https://github.com/ahadali1031/personalWebsite",
     },
     {
-      name: "Job IT",
+      name: "Electronic Edge Logbook",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Full-stack application with Flask, Firebase and React that allows users to login and add shift information as well as customize fields and allows for offline storage.",
       tags: [
         {
           name: "react",
@@ -239,13 +242,13 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: eelog,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Database System Implementatiom",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Created database using C++ that allows for efficient, multi-threaded access.",
       tags: [
         {
           name: "nextjs",
@@ -260,8 +263,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: database,
+      source_code_link: "https://github.com/ahadali1031/DatabaseSystemImplementation",
     },
   ];
   

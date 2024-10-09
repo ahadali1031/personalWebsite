@@ -7,6 +7,9 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+import database from "./database.jpg";
+import eelog from "./eelog.png";
+import personalWebPic from "./personalWebPic.png";
 import css from "./tech/css.png";
 import java from "./tech/java.svg";
 import cpp from "./tech/cpp.png";
@@ -51,6 +54,7 @@ export {
   web,
   github,
   menu,
+  database,
   close,
   css,
   docker,
@@ -68,6 +72,8 @@ export {
   threejs,
   meta,
   shopify,
+  personalWebPic,
+  eelog,
   electronicArts,
   gtri,
   tesla,
